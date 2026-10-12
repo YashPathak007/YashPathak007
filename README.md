@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-banner.svg" alt="Yash Pathak — software systems profile banner" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="Yash Pathak — systems lab profile banner" width="100%" />
 </div>
 
 <p align="center">
@@ -12,61 +12,72 @@
 
 # Yash Pathak
 
-> I build security-minded systems that make state, boundaries, and evidence visible.
+> **I turn messy, high-stakes workflows into systems you can inspect, trust, and act on.**
 
-I turn complex workflows into products people can inspect and validate—from detection to investigation, protected storage to revocation, and media input to evidence report.
+Security-minded product engineer building software where **state is visible, boundaries are explicit, and evidence survives the handoff**.
 
-```text
-$ identity --show
-name       Yash Pathak
-focus      security operations · private exchange · media evidence
-method     make state visible → define the boundary → prove the workflow
-status     building explainable products
+```console
+$ ./profile --signal
+identity    yash@systems-lab
+mode        security-minded product engineering
+loop        detect → define boundary → prove the workflow
+building    explainable products with honest failure states
 ```
 
-## Featured systems
+## The systems lab
 
-### [BreachWatch](https://github.com/YashPathak007/BreachWatch)
-Turn normalized security events into explainable alert investigations.
+Three focused systems, one design instinct: move from raw signal to a decision someone can defend.
 
-**Engineering signal:** `React` `FastAPI` `PostgreSQL` · RBAC · correlated evidence · audit trail
+<div align="center">
+  <img src="./assets/systems-atlas.svg" alt="Systems atlas connecting BreachWatch, CipherLink, and FrameTrace through detect, protect, and prove" width="100%" />
+</div>
 
-### [CipherLink](https://github.com/YashPathak007/CipherLink)
-Make private file sharing rules visible, reversible, and auditable.
+### [`BreachWatch`](https://github.com/YashPathak007/BreachWatch) / `DETECT → INVESTIGATE`
 
-**Engineering signal:** `React` `Node.js` `PostgreSQL` · AES-256-GCM · wrapped keys · expiry and revocation
+Turns normalized security events into explainable alert investigations—with correlated evidence, role boundaries, and an audit trail.
 
-### [FrameTrace](https://github.com/YashPathak007/FrameTrace)
-Turn media review into a bounded, inspectable evidence report.
+`React` `FastAPI` `PostgreSQL` · `RBAC` · `alert lifecycle`
 
-**Engineering signal:** `React` `FastAPI` `OpenCV` `PyTorch` · measurable signals · explicit job states · honest limitations
+### [`CipherLink`](https://github.com/YashPathak007/CipherLink) / `PROTECT → REVOKE`
 
-## Stack
+Makes private file exchange legible: encrypted payloads, wrapped keys, expiry, and revocation are part of the workflow—not hidden afterthoughts.
 
-**Build:** `TypeScript` · `React` · `Node.js` · `Python` · `FastAPI`
+`React` `Node.js` `PostgreSQL` · `AES-256-GCM` · `path-traversal regression`
 
-**Data & delivery:** `PostgreSQL` · `Redis` · `Docker`
+### [`FrameTrace`](https://github.com/YashPathak007/FrameTrace) / `MEASURE → REPORT`
 
-**Analysis:** `OpenCV` · `PyTorch`
+Turns media review into a bounded evidence report with measurable signals, explicit job states, and limitations that stay visible.
 
-## Proof / validation
+`React` `FastAPI` `OpenCV` `PyTorch` · `deterministic behavior` · `supported-media classification`
 
-Validation stays close to the product claim in each repository:
+## Stack matrix
+
+| Layer | Working set |
+| --- | --- |
+| **Product** | `TypeScript` · `React` |
+| **Services** | `Node.js` · `Python` · `FastAPI` |
+| **Data / runtime** | `PostgreSQL` · `Redis` · `Docker` |
+| **Analysis** | `OpenCV` · `PyTorch` |
+| **Operating principle** | visible state · explicit boundaries · repeatable checks |
+
+## Proof stays near the claim
+
+I validate the behavior each system asks a user to trust:
 
 - **BreachWatch** — authentication, RBAC, ingestion, detection, alert lifecycle, audit records, and frontend/build checks.
 - **CipherLink** — encryption/decryption, tamper rejection, upload/share constraints, and a path-traversal regression check.
 - **FrameTrace** — deterministic model behavior, supported-media classification, explicit limitation language, and a frontend production build check.
 
-## Current focus
+## Current direction
 
-- Make queued, processing, empty, failed, and completed states legible.
-- Put security boundaries and limitations where decisions happen.
+- Make queued, processing, empty, failed, and completed states impossible to misread.
+- Put security boundaries and model limitations where decisions happen.
 - Prefer repeatable tests and build checks over decorative metrics.
 
-## Start here
+## Open a channel
 
-Explore the [portfolio](https://yashpathak007.github.io), open a system's README, or [get in touch](mailto:yashpathak1973@gmail.com) about a workflow worth making explainable.
+Start with the [portfolio](https://yashpathak007.github.io), inspect a system's README, or [send a message](mailto:yashpathak1973@gmail.com) about a workflow worth making explainable.
 
 <p align="center">
-  <sub>BUILD SYSTEMS THAT EXPLAIN THEMSELVES.</sub>
+  <sub>BUILD SYSTEMS THAT EXPLAIN THEMSELVES · YP/007</sub>
 </p>

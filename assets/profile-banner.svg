@@ -1,39 +1,52 @@
-<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Yash Pathak — software systems</title>
-  <desc id="desc">A futuristic terminal-inspired banner with a systems engineering message.</desc>
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Yash Pathak — systems lab</title>
+  <desc id="desc">A futuristic terminal-inspired banner for Yash Pathak, a security-minded product engineer building explainable systems.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#071018"/>
-      <stop offset="0.52" stop-color="#0C1D25"/>
-      <stop offset="1" stop-color="#101329"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060F17"/>
+      <stop offset="0.52" stop-color="#0B2027"/>
+      <stop offset="1" stop-color="#15132B"/>
     </linearGradient>
-    <linearGradient id="glow" x1="80" y1="30" x2="1170" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#54F1C4"/>
-      <stop offset="0.5" stop-color="#73D7FF"/>
-      <stop offset="1" stop-color="#B28CFF"/>
+    <linearGradient id="glow" x1="78" y1="42" x2="1192" y2="348" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#55F2C4"/>
+      <stop offset="0.5" stop-color="#70D9FF"/>
+      <stop offset="1" stop-color="#BD8DFF"/>
     </linearGradient>
     <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="28"/>
+      <feGaussianBlur stdDeviation="34"/>
     </filter>
-    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M42 0H0V42" stroke="#9BD8D0" stroke-opacity="0.08"/>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#9BD8D0" stroke-opacity="0.08"/>
     </pattern>
   </defs>
-  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
-  <circle cx="1050" cy="60" r="150" fill="#62D9C4" fill-opacity="0.12" filter="url(#blur)"/>
-  <circle cx="270" cy="330" r="130" fill="#8A7BFF" fill-opacity="0.1" filter="url(#blur)"/>
-  <rect x="1" y="1" width="1278" height="358" rx="23" fill="url(#grid)"/>
-  <rect x="24" y="24" width="1232" height="312" rx="17" stroke="#A7EDE0" stroke-opacity="0.19"/>
-  <path d="M58 78H418" stroke="url(#glow)" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="58" cy="78" r="5" fill="#54F1C4"/>
-  <text x="78" y="83" fill="#86A7AD" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="3">YASHPATHAK007 / SYSTEMS PROFILE</text>
-  <text x="58" y="174" fill="#F3FBF8" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700" letter-spacing="-2">BUILD SYSTEMS</text>
-  <text x="58" y="232" fill="url(#glow)" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700" letter-spacing="-2">THAT EXPLAIN THEMSELVES.</text>
-  <text x="60" y="282" fill="#A8C1C2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="1">security operations  ·  private exchange  ·  media evidence</text>
-  <path d="M1080 238L1132 186L1186 238" stroke="#54F1C4" stroke-opacity="0.75" stroke-width="2"/>
-  <path d="M1106 264L1159 211L1210 264" stroke="#8C83FF" stroke-opacity="0.65" stroke-width="2"/>
-  <circle cx="1132" cy="186" r="4" fill="#54F1C4"/>
-  <circle cx="1159" cy="211" r="4" fill="#73D7FF"/>
-  <circle cx="1186" cy="238" r="4" fill="#B28CFF"/>
-  <text x="1120" y="303" fill="#6F9198" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2">STATUS: BUILDING</text>
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="1055" cy="70" r="170" fill="#62D9C4" fill-opacity="0.12" filter="url(#blur)"/>
+  <circle cx="260" cy="386" r="150" fill="#8A7BFF" fill-opacity="0.12" filter="url(#blur)"/>
+  <rect x="1" y="1" width="1278" height="418" rx="27" fill="url(#grid)"/>
+  <rect x="24" y="24" width="1232" height="372" rx="21" stroke="#A7EDE0" stroke-opacity="0.19"/>
+
+  <path d="M58 74H430" stroke="url(#glow)" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="58" cy="74" r="5" fill="#55F2C4"/>
+  <text x="78" y="79" fill="#86A7AD" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="3">YASHPATHAK007 / SYSTEMS LAB</text>
+  <text x="1035" y="79" fill="#55F2C4" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2">● ONLINE / BUILDING</text>
+
+  <text x="58" y="174" fill="#F3FBF8" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700" letter-spacing="-2">MAKE COMPLEX</text>
+  <text x="58" y="239" fill="url(#glow)" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700" letter-spacing="-2">SYSTEMS LEGIBLE.</text>
+  <text x="60" y="286" fill="#A8C1C2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="1">security operations  ·  private exchange  ·  media evidence</text>
+
+  <path d="M58 337H380" stroke="#55F2C4" stroke-opacity="0.4"/>
+  <text x="58" y="363" fill="#55F2C4" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="2">DETECT</text>
+  <text x="176" y="363" fill="#70D9FF" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="2">PROTECT</text>
+  <text x="302" y="363" fill="#BD8DFF" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="2">PROVE</text>
+  <path d="M118 357H155M244 357H281" stroke="#72999D" stroke-opacity="0.65"/>
+
+  <path d="M1015 302L1070 247L1125 302" stroke="#55F2C4" stroke-opacity="0.75" stroke-width="2"/>
+  <path d="M1050 337L1106 281L1162 337" stroke="#BD8DFF" stroke-opacity="0.65" stroke-width="2"/>
+  <path d="M1070 247L1106 281L1125 302" stroke="#70D9FF" stroke-opacity="0.8" stroke-width="2"/>
+  <circle cx="1070" cy="247" r="5" fill="#55F2C4"/>
+  <circle cx="1106" cy="281" r="5" fill="#70D9FF"/>
+  <circle cx="1125" cy="302" r="5" fill="#BD8DFF"/>
+  <circle cx="1050" cy="337" r="4" fill="#55F2C4"/>
+  <circle cx="1162" cy="337" r="4" fill="#BD8DFF"/>
+  <text x="1013" y="371" fill="#6F9198" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2">STATE → BOUNDARY → EVIDENCE</text>
 </svg>
