@@ -5,66 +5,68 @@
 <p align="center">
   <a href="https://yashpathak007.github.io">PORTFOLIO</a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/YashPathak007?tab=repositories">SYSTEMS</a>
+  <a href="https://github.com/YashPathak007?tab=repositories">REPOSITORIES</a>
   &nbsp;·&nbsp;
   <a href="mailto:yashpathak1973@gmail.com">CONTACT</a>
 </p>
 
-# YASH PATHAK
+# Yash Pathak
 
-### Software systems · security-minded products · evidence-driven interfaces
+> I build security-minded systems that make state, boundaries, and evidence visible.
 
-I build tools that make complicated workflows understandable.
-
-My current portfolio focuses on three problem spaces where trust matters: security operations, controlled file exchange, and media evidence. I care about the complete loop—not only whether an API returns `200`, but whether a person can understand what happened, what the system knows, and what to do next.
+I turn complex workflows into products people can inspect and validate—from detection to investigation, protected storage to revocation, and media input to evidence report.
 
 ```text
-┌──────────────────────────────────────────────────────────────────────┐
-│  BUILD PRINCIPLE                                                     │
-│  Make the system legible. Make the state visible. Make the limits     │
-│  honest. Then prove the workflow with a real check.                  │
-└──────────────────────────────────────────────────────────────────────┘
+$ identity --show
+name       Yash Pathak
+focus      security operations · private exchange · media evidence
+method     make state visible → define the boundary → prove the workflow
+status     building explainable products
 ```
 
-## FEATURED SYSTEMS
+## Featured systems
 
-| System | What it does | Engineering signal |
-| --- | --- | --- |
-| [BreachWatch](https://github.com/YashPathak007/BreachWatch) | Evidence-first security operations workspace | RBAC, detection rules, alert investigation, audit trails |
-| [CipherLink](https://github.com/YashPathak007/CipherLink) | Private file exchange with controlled links | AES-256-GCM, wrapped keys, expiry limits, revocation |
-| [FrameTrace](https://github.com/YashPathak007/FrameTrace) | Honest media evidence lab | OpenCV/PyTorch baseline, bounded sampling, report lifecycle |
+### [BreachWatch](https://github.com/YashPathak007/BreachWatch)
+Turn normalized security events into explainable alert investigations.
 
-## THE STACK
+**Engineering signal:** `React` `FastAPI` `PostgreSQL` · RBAC · correlated evidence · audit trail
 
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-0b1220?style=for-the-badge&logo=typescript&logoColor=47e9c2" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-0b1220?style=for-the-badge&logo=react&logoColor=8be9fd" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-0b1220?style=for-the-badge&logo=nodedotjs&logoColor=9eff6f" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Python-0b1220?style=for-the-badge&logo=python&logoColor=ffd866" alt="Python" />
-  <img src="https://img.shields.io/badge/FastAPI-0b1220?style=for-the-badge&logo=fastapi&logoColor=8be9fd" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/PostgreSQL-0b1220?style=for-the-badge&logo=postgresql&logoColor=82aaff" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Docker-0b1220?style=for-the-badge&logo=docker&logoColor=7dcfff" alt="Docker" />
-</p>
+### [CipherLink](https://github.com/YashPathak007/CipherLink)
+Make private file sharing rules visible, reversible, and auditable.
 
-## HOW I THINK ABOUT PRODUCT QUALITY
+**Engineering signal:** `React` `Node.js` `PostgreSQL` · AES-256-GCM · wrapped keys · expiry and revocation
 
-- **State is a feature.** Loading, queued, processing, empty, failed, and completed states should all tell the user what happened.
-- **Security needs a boundary.** I document what is protected, what is visible, and what a system deliberately does not claim to protect.
-- **Interfaces are evidence.** A polished UI should expose the underlying workflow, not hide a demo behind decorative metrics.
-- **Tests protect outcomes.** I test the user-visible contract, permission boundaries, persistence, and failure paths—not only helper functions.
+### [FrameTrace](https://github.com/YashPathak007/FrameTrace)
+Turn media review into a bounded, inspectable evidence report.
 
-## BUILD LOG
+**Engineering signal:** `React` `FastAPI` `OpenCV` `PyTorch` · measurable signals · explicit job states · honest limitations
 
-```text
-[01] BREACHWATCH  → normalize events → evaluate rules → investigate alerts
-[02] CIPHERLINK   → encrypt bytes → review share policy → revoke access
-[03] FRAMETRACE   → validate media → measure signals → read evidence report
-```
+## Stack
 
-Each project has a full README, architecture notes, security boundaries, demo walkthrough, and repeatable validation commands. The portfolio site collects the story in one place:
+**Build:** `TypeScript` · `React` · `Node.js` · `Python` · `FastAPI`
 
-**[Open the portfolio →](https://yashpathak007.github.io)**
+**Data & delivery:** `PostgreSQL` · `Redis` · `Docker`
+
+**Analysis:** `OpenCV` · `PyTorch`
+
+## Proof / validation
+
+Validation stays close to the product claim in each repository:
+
+- **BreachWatch** — authentication, RBAC, ingestion, detection, alert lifecycle, audit records, and frontend/build checks.
+- **CipherLink** — encryption/decryption, tamper rejection, upload/share constraints, and a path-traversal regression check.
+- **FrameTrace** — deterministic model behavior, supported-media classification, explicit limitation language, and a frontend production build check.
+
+## Current focus
+
+- Make queued, processing, empty, failed, and completed states legible.
+- Put security boundaries and limitations where decisions happen.
+- Prefer repeatable tests and build checks over decorative metrics.
+
+## Start here
+
+Explore the [portfolio](https://yashpathak007.github.io), open a system's README, or [get in touch](mailto:yashpathak1973@gmail.com) about a workflow worth making explainable.
 
 <p align="center">
-  <sub>YASH PATHAK // SYSTEMS THAT EXPLAIN THEMSELVES</sub>
+  <sub>BUILD SYSTEMS THAT EXPLAIN THEMSELVES.</sub>
 </p>
